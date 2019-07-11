@@ -6,6 +6,6 @@ A few scripts for using the Entity Linker [TagMe](http://pages.di.unipi.it/ferra
 Download a Wikipedia dump from [here](https://dumps.wikimedia.org/enwiki/) and process it with the [WikiExtractor](http://medialab.di.unipi.it/wiki/Wikipedia_Extractor) with the following command:
 
 ```
-python python WikiExtractor.py -s -o output/ -l enwiki-20190401-pages-articles-multistream.xml.bz2
+python python WikiExtractor.py -s -o output/ -l [here put the path to the Wikipedia Dump .xml.bz2]
 ```
 
