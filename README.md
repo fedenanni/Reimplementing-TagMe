@@ -1,7 +1,7 @@
 # Reimplementing-TagMe
 A few scripts for using the Entity Linker [TagMe](http://pages.di.unipi.it/ferragina/cikm2010.pdf), starting from a Wikipedia Dump. This work is inspired by the paper "On the Reproducibility of the TAGME Entity Linking System" [[paper](http://hasibi.com/files/ecir2016-tagme.pdf), [code](https://github.com/hasibi/TAGME-Reproducibility)].
 
-## Starting Point
+## Step-By-Step Procedure
 
 Download a Wikipedia dump from [here](https://dumps.wikimedia.org/enwiki/) and process it with the [WikiExtractor](http://medialab.di.unipi.it/wiki/Wikipedia_Extractor) with the following command:
 
@@ -20,6 +20,6 @@ The second step will extract mention, ngrams and entity counts as well as mentio
 ```
 2-ExtractingFreqAndAspects.ipynb
 ```
-
+The final pre-processing script will aggregate 
 
 Download all resources from here.
