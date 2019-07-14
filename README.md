@@ -1,5 +1,5 @@
 # Reimplementing-TagMe
-How to re-build the Entity Linker [TagMe](http://pages.di.unipi.it/ferragina/cikm2010.pdf) in a few scripts, starting from a Wikipedia Dump. This work is inspired by the paper "On the Reproducibility of the TAGME Entity Linking System" [[paper](http://hasibi.com/files/ecir2016-tagme.pdf), [code](https://github.com/hasibi/TAGME-Reproducibility)].
+How to rebuild the Entity Linker [TagMe](http://pages.di.unipi.it/ferragina/cikm2010.pdf) in a few scripts, starting from a Wikipedia Dump. This work is inspired by the paper "On the Reproducibility of the TAGME Entity Linking System" [[paper](http://hasibi.com/files/ecir2016-tagme.pdf), [code](https://github.com/hasibi/TAGME-Reproducibility)].
 
 ## Pre-Processing Procedure
 
