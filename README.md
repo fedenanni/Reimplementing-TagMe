@@ -37,4 +37,8 @@ To use directly my reimplementation of TagMe withouth processing a Wikipedia dum
 
 ## Using TagMe
 
-The Presentation-TagMe.ipynb offers you a step-by-step overview of the TagMe algorithm for entity linking. It is designed to be working with [RISE](https://github.com/damianavila/RISE). The last step shows the potential of aspects for further adding semantics to the linking process. If you're interested in this, check out the [original TagMe](https://tagme.d4science.org/tagme/), the [work](http://hasibi.com/files/ecir2016-tagme.pdf) done by Hasibi et al. in assessing its reproducibility and our recent [dataset and demo](https://federiconanni.com/eal-d/) of entity-aspect links.
+Through the script
+```
+Presentation-TagMe.ipynb 
+```
+you will have a step-by-step overview of the TagMe algorithm for entity linking. It is designed to be working with [RISE](https://github.com/damianavila/RISE). The last cell in the notebook shows the potential of using aspects for further adding semantics to the linking process. If you'd like to know more about this, check out the [original TagMe](https://tagme.d4science.org/tagme/), the [work](http://hasibi.com/files/ecir2016-tagme.pdf) done by Hasibi et al. in assessing its reproducibility and our recent [dataset and demo](https://federiconanni.com/eal-d/) of entity-aspect links.
