@@ -18,7 +18,7 @@ Having the Wiki dump processed by the WikiExtractor in the "output/" folder, the
 ```
 1-CollectAllMentions.ipynb 
 ```
-that will produce a all_mentions.pickle file.
+that will produce a all_mentions.pickle file. Note that I am using an English word tokenizer, which is the only language-dependent component of the pipeline.
 
 The second step will extract mention, ngrams and entity counts as well as mention_to_entities statistics (e.g., how many times the mention "Obama" is pointing to "Barack_Obama" and how many times to "Michele_Obama"). Statistics are still divided in the n-folders consituting the output of the WikiExtractor and will be saved in the "Store-Counts/" folder as json files. The script will also store a .json file for each entity, with all its aspects (see [here](https://madoc.bib.uni-mannheim.de/49596/1/EAL.pdf) to know more about Entity-Aspect Linking). 
 ```
@@ -33,7 +33,7 @@ Note that after having processed each json from "Store-Counts/", the script will
 
 ### Download resources
 
-To use directly my reimplementation of TagMe withouth processing a Wikipedia dump you can download all resources needed from [here](https://drive.google.com/open?id=1lcq0PRRq8o_G-L-pQrV7GG-Btn-xPFlr). You will find the five .pickle files containing the needed statistics plus a tfidf_asps.pkl file having TF-IDF statistics for the final aspect linking step.
+To use directly my reimplementation of TagMe withouth processing a Wikipedia dump you can download all resources needed from [here](https://drive.google.com/open?id=1lcq0PRRq8o_G-L-pQrV7GG-Btn-xPFlr). You will find the five .pickle files containing the needed statistics plus a tfidf_asps.pkl file having TF-IDF statistics for the final aspect linking step. As before, these statistics are computed on English text, but they are straight forward to produce in another language by simply changing the word tokenizer.
 
 ## Using TagMe
 
