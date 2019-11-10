@@ -1,5 +1,6 @@
 from urllib.parse import unquote
 
+
 def show_top_entity_candidates(mention,mention_to_entities):
     cands = [["/wiki/"+unquote(x).replace(" ","_"),score] for x,score in mention_to_entities[mention].most_common(3)]
     return cands
